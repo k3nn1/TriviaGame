@@ -1,0 +1,34 @@
+body {
+    background-size: cover;
+}
+
+.jumbotron {
+    background-size: cover;
+            margin: 5px;
+            width: 100%;
+            border-radius: 50px;
+            padding: 10px;
+            opacity: .5;
+            background-color: red;
+}
+
+.triviaName {
+    text-align: center;
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+#question,
+#trivia {
+    color: white;
+}
+#doneBtn, #startover {
+    display: none;
+}
+
+#counter {
+    color: red;
+}

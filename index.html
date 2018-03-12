@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marvel Trivia Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- <style>
+        .jumbotron {
+            background-image: url("assets/images/marvel_wallpaper.png");
+        }
+    </style> -->
+
+</head>
+<body background="assets/images/ironMan.jpg">
+    <div class="container">
+        <div class="jumbotron">
+        <h1 class="triviaName">Marvel Trivia</h1>
+    </div>
+    
+    <div class = "container">
+        <div class ="row">
+            <div class="md-col-12  text-center">
+                <div class="description">
+                <h2>How much do you about the Marvel Universe.</h2>
+                <h2>You have 30 seconds to answer 10 questions.</h2>
+                </div>
+                <button id="start">START</button>
+            </div>
+        </div>
+    </div>
+
+    <div class ="container id=questionPage">
+        <div class="row">
+            <div class="md-col-12 text-center">
+                <div id="counter"></div>
+                <div id="trivia"></div>
+                <img id="Thanos" src="assets/images/Thanos.jpg" alt="Thanos" style="display:none">
+                <ul>
+                    <li><button type="button" class="btn btn-danger" id="doneBtn"></button></li>
+                    <li><button type="button" class="btn btn-success" id="startover"></button></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+</body>
+</html>
